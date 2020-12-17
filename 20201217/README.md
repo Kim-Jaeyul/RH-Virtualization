@@ -14,7 +14,7 @@ https://access.redhat.com/documentation/en-us/red_hat_virtualization/4.3/html/vi
 2. Pinning CPUs
 3. Setting the NUMA Nodes and Pining Topology
 4. Configuring Huge Pages
-5. Disabling KSM
+5. Disabling KSM(가장 먼저 수행할 것!!)
 
 ----------
 
