@@ -29,7 +29,7 @@ https://access.redhat.com/documentation/en-us/red_hat_virtualization/4.3/html/vi
 
 (2) 일반 -> 최적화 옵션 -> **고성능** 선택
 
-![image-20201217201059845](C:\Users\jakim\Desktop\pictures\image-20201217201059845.png)
+![image-20201217201059845](https://github.com/Kim-Jaeyul/RH-Virtualization/blob/main/20201217/pictures/image-20201217201059845.png)
 
 
 
@@ -127,7 +127,7 @@ Flags:               fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cm
 
 (1) 호스트 -> **특정 호스트**
 
-![image-20201217201707743](C:\Users\jakim\Desktop\pictures\image-20201217201707743.png)
+![image-20201217201707743](https://github.com/Kim-Jaeyul/RH-Virtualization/blob/main/20201217/pictures/image-20201217201707743.png)
 
 
 
@@ -138,7 +138,7 @@ Flags:               fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cm
 - CPU 피닝 토폴로지 : **0#0_1#1_2#2_3#3**
   - vCPU 4개를 pCPU 1:1로 pinning
 
-![image-20201217204000723](C:\Users\jakim\Desktop\pictures\image-20201217204000723.png)
+![image-20201217204000723](https://github.com/Kim-Jaeyul/RH-Virtualization/blob/main/20201217/pictures/image-20201217204000723.png)
 
 
 
@@ -169,7 +169,7 @@ Flags:               fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cm
 - NUMA 노드 수 : 가상머신의 vNUMA의 개수를 의미
 - 조정 모드 : **기본 설정**
 
-![image-20201217204647715](C:\Users\jakim\Desktop\pictures\image-20201217204647715.png)
+![image-20201217204647715](https://github.com/Kim-Jaeyul/RH-Virtualization/blob/main/20201217/pictures/image-20201217204647715.png)
 
 
 
@@ -177,12 +177,12 @@ Flags:               fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cm
 
 - vNUMA를 드래그 하기 전
 
-![image-20201217204921692](C:\Users\jakim\Desktop\pictures\image-20201217204921692.png)
+![image-20201217204921692](https://github.com/Kim-Jaeyul/RH-Virtualization/blob/main/20201217/pictures/image-20201217204921692.png)
 
 - vNUMA를 드래그 후
   - CPU pinning한 NUMA node에 드래그 할 것!
 
-![image-20201217205040930](C:\Users\jakim\Desktop\pictures\image-20201217205040930.png)
+![image-20201217205040930](https://github.com/Kim-Jaeyul/RH-Virtualization/blob/main/20201217/pictures/image-20201217205040930.png)
 
 
 
@@ -207,7 +207,7 @@ AnonHugePages:  41795584 kB
 - Red Hat은 **hugepages** 크기를 고정된 호스트에서 지원하는 가장 큰 크기로 설정할 것을 권장합니다. x86_64의 권장 크기는 1GB입니다.
 - 가상 머신의 **hugepages** 크기는 고정된 호스트의 hugepages 크기와 같아야합니다.
 
-![image-20201217210426181](C:\Users\jakim\Desktop\pictures\image-20201217210426181.png)
+![image-20201217210426181](https://github.com/Kim-Jaeyul/RH-Virtualization/blob/main/20201217/pictures/image-20201217210426181.png)
 
 ---------------------
 
@@ -215,13 +215,13 @@ AnonHugePages:  41795584 kB
 
 (1) 컴퓨팅 -> **클러스터** -> **편집** 클릭
 
-![image-20201217211104924](C:\Users\jakim\Desktop\pictures\image-20201217211104924.png)
+![image-20201217211104924](https://github.com/Kim-Jaeyul/RH-Virtualization/blob/main/20201217/pictures/image-20201217211104924.png)
 
 
 
 (2) 최적화 -> **KSM 활성화** 체크박스 제거
 
-![image-20201217211323230](C:\Users\jakim\Desktop\pictures\image-20201217211323230.png)
+![image-20201217211323230](https://github.com/Kim-Jaeyul/RH-Virtualization/blob/main/20201217/pictures/image-20201217211323230.png)
 
 
 
@@ -240,13 +240,13 @@ AnonHugePages:  41795584 kB
 - 가상 컴퓨터의 가상 소켓 당 코어 수는 호스트의 코어 수보다 크지 않아야합니다.
 - CPU 집약적 워크로드는 호스트와 가상 머신이 동일한 캐시 사용량을 예상 할 때 가장 잘 수행됩니다. 최상의 성능을 얻으려면 가상 머신의 코어 당 스레드 수가 호스트의 스레드 수보다 크지 않아야합니다.
 
-![image-20201217210819714](C:\Users\jakim\Desktop\pictures\image-20201217210819714.png)
+![image-20201217210819714](Chttps://github.com/Kim-Jaeyul/RH-Virtualization/blob/main/20201217/pictures/image-20201217210819714.png)
 
 
 
 (참고) 가상머신 그림확인
 
-![image-20201217211916147](C:\Users\jakim\Desktop\pictures\image-20201217211916147.png)
+![image-20201217211916147](https://github.com/Kim-Jaeyul/RH-Virtualization/blob/main/20201217/pictures/image-20201217211916147.png)
 
 
 
