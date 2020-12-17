@@ -22,7 +22,7 @@ https://access.redhat.com/documentation/en-us/red_hat_virtualization/4.3/html/vi
 
 (1) 컴퓨팅 -> 가상머신 -> **새로 만들기** or **편집**
 
-![image-20201217200906350](RH-Virtualization/20201217pictures/image-20201217200906350.png)
+![image-20201217200906350](20201217/pictures/image-20201217200906350.png)
 
 
 
