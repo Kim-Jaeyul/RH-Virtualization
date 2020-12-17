@@ -4,7 +4,7 @@
 
  url : 4.10. CONFIGURING HIGH PERFORMANCE VIRTUAL MACHINES, TEMPLATES, AND POOLS
 
-https://access.redhat.com/documentation/en-us/red_hat_virtualization/4.3/html/virtual_machine_management_guide/Configuring_High_Performance_Virtual_Machines_Templates_and_Pools#Pinning_CPU
+https://access.redhat.com/documentation/en-us/red_hat_virtualization/4.3/html/virtual_machine_management_guide/configuring_high_performance_virtual_machines_templates_and_pools
 
 ---------
 
