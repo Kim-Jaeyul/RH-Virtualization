@@ -240,7 +240,7 @@ AnonHugePages:  41795584 kB
 - 가상 컴퓨터의 가상 소켓 당 코어 수는 호스트의 코어 수보다 크지 않아야합니다.
 - CPU 집약적 워크로드는 호스트와 가상 머신이 동일한 캐시 사용량을 예상 할 때 가장 잘 수행됩니다. 최상의 성능을 얻으려면 가상 머신의 코어 당 스레드 수가 호스트의 스레드 수보다 크지 않아야합니다.
 
-![image-20201217210819714](Chttps://github.com/Kim-Jaeyul/RH-Virtualization/blob/main/20201217/pictures/image-20201217210819714.png)
+![image-20201217210819714](https://github.com/Kim-Jaeyul/RH-Virtualization/blob/main/20201217/pictures/image-20201217210819714.png)
 
 
 
